@@ -1,0 +1,111 @@
+html{
+    height: 100%;
+    background:radial-gradient(circle,#fff,#ccc);
+}
+
+#container{
+ 
+    height: 600px;
+    width: 750px;
+    background-color: #9DD2EA;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 0px 0px #009de4;
+    -moz-box-shadow: 0px 4px 0px 0px #009de4;
+    -webkit-box-shadow: 0px 4px 0px 0px #009de4;
+/*        box-shadow: [horizontal offset] [vertical offset] [blur radius] [optional spread radius] [color]*/
+    position: relative;
+}
+
+#score{
+    background: #F1FF92;
+    color:#888E5F;
+    padding: 11px;
+    position: absolute;
+    left: 700px;
+    top: 10px;
+    box-shadow: 0 4px #9da853;
+}
+#trails_left{
+    background: #F1FF92;
+    position: absolute;
+    top: 10px;
+   left: 25px;
+   padding: 5px;
+   width: 100px;
+   border-radius: 2px;
+   box-shadow: 0 4px rgba(0,0,0,0.2);
+   /* visibility: hidden; */
+  display: none;
+}
+.heart{
+    margin: 0 5px;
+}
+#game_area{
+   
+    width: 650px;
+    height: 400px;
+    margin: 50px auto 10px auto;
+    background-color: white;
+    box-shadow: 0px 4px #535aa8;
+    -moz-box-shadow: 0px 4px #535aa8;
+    -webkit-box-shadow: 0px 4px #535aa8;
+    font-size: 100px;
+    text-align: center;
+    font-family: cursive, sans-serif;
+    color: black;
+    position: relative;
+    overflow: hidden;
+}
+#fruits1{
+    display: none;
+    position: absolute;
+}
+#info{
+    height: 50px;
+    width: 400px;
+    position: absolute;
+    top: 480px;
+    left: 200px;
+    background: #b994e3;
+    box-shadow: 0 4px #b380ed;
+    text-align: center;
+    font-size: 18px ;
+    font-weight: 500;
+    line-height: 45px;
+}
+#st_but{
+    position: absolute;
+    top: 540px;
+    left: 360px;
+    background:wheat;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 0 4px rgba(0,0,0,0.2);
+}
+#st_but:hover{
+    background:#8a6db0;
+    color: white;
+    box-shadow: 0 4px #6b54d3;
+}
+#st_but:active{
+    background: #662fad;
+    box-shadow: 0 0  #6b54d3;;
+    top: 535px;
+     transition: all 0.3s;
+}
+#game_over{
+    height: 250px;
+    width: 500px;
+    background:linear-gradient(#e3a05d,#b57404);
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 130px;
+    left: 150px;
+    z-index: 2;
+  display: none;
+}
